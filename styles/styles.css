@@ -70,6 +70,7 @@ header {
 }
 
 .phone_number {
+  color: #444;
   display: flex;
 }
 
