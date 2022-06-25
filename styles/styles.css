@@ -70,7 +70,7 @@ header {
 }
 
 .phone_number {
-  color: #444;
+  color: #32082e;
   display: flex;
 }
 
@@ -111,7 +111,7 @@ footer {
 }
 
 .intro {
-  background: url("../images/main_logo.jpg") no-repeat fixed center;
+  background: url("../images/intro.jpg") no-repeat fixed center;
 }
 
 .intro-content {
