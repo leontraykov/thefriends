@@ -23,10 +23,11 @@ header {
   max-height: 150px;
   display: block;
   top: 0;
-  position: absolute;
+  /* position: absolute; */
   /* position: sticky; */
   flex-wrap: wrap;
   background-color: white;
+  opacity: 0.95;
 }
 
 .header_logo {
