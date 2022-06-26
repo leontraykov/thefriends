@@ -13,7 +13,7 @@ body {
 .title-large {
   font-weight: bold;
   font-size: 48px;
-  margin-bottom: 18px;
+  margin: 18px;
 }
 
 .title-medium {

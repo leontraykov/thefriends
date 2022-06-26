@@ -70,8 +70,8 @@ header {
 }
 
 .top-links:hover { 
-  color: black;
-  transition: all ease 1s;
+  color: #32082e;
+  transition: all ease .6s;
 }
 
 .phone-number {
@@ -96,6 +96,7 @@ footer {
 }
 
 .footer {
+  color: #444;
   display: flex;
   justify-content: space-between;
 }
@@ -107,6 +108,18 @@ footer {
 .footer-item {
   -webkit-text-stroke: .03em #444;
   padding: 70px;
+}
+
+.footer-contacts {
+  color: #444;
+  text-decoration: none;
+}
+
+
+.footer-contacts:hover {
+  color: #32082e;
+  text-decoration: none;
+  transition: 1s;
 }
 
 .main {
