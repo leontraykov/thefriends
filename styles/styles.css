@@ -90,7 +90,7 @@ footer {
   margin-top: 3em;
   padding: 1em;
   line-height: 32px;
-  background: lightskyblue;
+  background: rgb(199, 234, 255);
   opacity: 0.7;
   bottom: 0;
 }
@@ -115,9 +115,9 @@ footer {
   flex-direction: column;
 }
 
-.intro {
+/* .intro {
   background: url("../images/intro.jpg") no-repeat fixed center;
-}
+} */
 
 .intro-content {
   padding-top: 200px;
@@ -127,13 +127,13 @@ footer {
 }
 
 .intro-item {
-  color: rgb(159, 73, 170);
+  color: rgb(102, 46, 109);
   -webkit-text-stroke: .03em #444;
   padding: 30px 70px;
 }
 
 .intro-item-small {
-  color: rgb(159, 73, 170);
+  color: rgb(102, 46, 109);
   padding: 50px;
 }
 
@@ -181,7 +181,7 @@ footer {
 }
 
 .offer {
-  background-color: rgb(251, 204, 211);
+  background-color: rgb(255, 165, 132);
   border: 2px coral solid;
   border-radius: 10px;
   padding: 3em;
