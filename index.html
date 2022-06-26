@@ -5,22 +5,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="courses.js"></script>
+
   <title>Школа иностранных языков the Friends</title>
   <link rel="stylesheet" href="styles/styles.css" />
   <link rel="stylesheet" href="styles/text.css" />
   <link rel="stylesheet" href="styles/button.css" />
+  <link rel="stylesheet" href="styles/courses.css" />
+  <link rel="stylesheet" href="styles/teachers.css" />
 </head>
+
 
 <body>
 
   <header>
 
     <div class="header">
-      <div class="header_items">
+      <div class="header-items">
 
-        <div class="left_part">
+        <div class="left-part">
           <div class="content">
-            <img class="header_logo" src="images/main_logo.jpg" alt="Маленький логотип">
+            <img class="header-logo" src="images/main_logo.jpg" alt="Маленький логотип">
             <a class="text-medium top-links" href="#main">Главная</a>
             <a class="text-medium top-links" href="#courses">Курсы</a>
             <a class="text-medium top-links" href="#teachers">Преподаватели</a>
@@ -29,10 +35,10 @@
           </div>
         </div>
 
-        <div class="right_part">
+        <div class="right-part">
           <div class="content">
             <img class="icon" src="images/phone.svg" alt="Phone icon">
-            <p class="phone_number title-medium">32-44-30</p>
+            <p class="phone-number title-medium">32-44-30</p>
           </div>
         </div>
 
@@ -42,163 +48,185 @@
 
   </header>
 
-<div class="main" id="main">
+  <div class="main" id="main">
 
-  <div class="intro">
-    <div class="intro-content">
-      <h1 class="intro-item title-huge">Раз и навсегда объясняем времена!</h1>
-      <h2 class="intro-item title-large">В доступной для понимания форме обучения!</h2>
+    <div class="intro">
+      <div class="intro-content">
+        <h1 class="intro-item title-huge">Раз и навсегда объясняем времена!</h1>
+        <h2 class="intro-item title-large">В доступной для понимания форме обучения!</h2>
 
-      <div class="intro-item button">
-        <button class="button button-green"><h3>Записаться!</h3></button>
-      </div>
+        <div class="intro-item button">
+          <button class="big-button button-green text-lead">Записаться!</button>
+        </div>
 
-      <p class="intro-item-small title-medium">Не ждите, когда путёвка уже будет куплена!</p>
-    </div>
-  </div>
-
-  <div class="features" id="features">
-
-    <div class="feature">
-      <div class="features-icon">
-        <img src="images/success.svg" alt="Выпускники">
-      </div>
-
-      <p class="title-medium">10&nbsp;000<br>людей</p>
-      <p class="text-lead">прошли 1 и 2 курс</p>
-    </div>
-
-    <div class="feature">
-      <div class="features-icon">
-        <img src="images/brain.svg" alt="Иконка-Мозг">
-      </div>
-
-      <p class="title-medium">Взрослым<br>и детям</p>
-      <p class="text-lead">Одинаково полезно</p>
-    </div>
-
-    <div class="feature">
-      <div class="features-icon">
-        <img src="images/graph.svg" alt="Вложения в себя">
-      </div>
-
-      <p class="title-medium">Вложения<br>в себя</p>
-      <p class="text-lead">Самые разумные инвестиции</p>
-    </div>
-
-    <div class="feature">
-      <div class="features-icon">
-        <img src="images/student.svg" alt="обучение">
-      </div>
-
-      <p class="title-medium">Гибкость<br>в обучении</p>
-      <p class="text-lead">Учёба в удобном формате</p>
-    </div>
-  </div>
-
-  <div class="courses" id="courses">
-    <p class="title-large center-align">Тут Вы узнаете про наши курсы:</p>
-    <div class="course">
-      <p class="title-large center-align">Английский для малышей</p>
-      <p class="text-lead">Двухуровневый курс для дошкольников 5-6 лет. Дети изучают алфавит и звуки, учатся писать и считать на английском языке. Материал курса позволяет создать первичный лексический запас и освоить базовые структуры. Все это достигается с помощью увлекательных заданий, запоминающихся песен и стихов, веселых игр.
-        Длительность одного уровня курса: от 7 до 9 месяцев
-        Интенсивность: 2 раза в неделю
-        Длительность занятия: от 45 до 60 минут</p>
-    </div>
-
-    <div class="course">
-      <p class="title-large center-align">ЦЕЛЫХ ТРИ КУРСА ДЛЯ ШКОЛЬНИКОВ</p>
-      <p class="text-lead">Курс Go Getter издательства Pearson для детей от 9 до 13 лет, разработан в партнерстве с BBC. Данный курс включает в себя 4 уровня (Beginner-Intermediate) и наполнен аутентичными материалами. Кроме богатой лексической и грамматической составляющих, ребята приобретают знания о культуре разных стран, учатся сотрудничать в рамках проектной работы и развивают коммуникативные навыки. Отдельно следует отметить видео-материалы данного курса: неизбитые темы и интересная подача.
-        Длительность одного уровня курса: от 9 до 12 месяцев
-        Интенсивность: 2 раза в неделю
-        Длительность занятия: 60 минут
-        <br>
-        <br>
-        Курс Wider World издательства Pearson для подростков от 12 до 16 лет, разработан в партнерстве с BBC. Содержит программу по формированию и расширению лексического запаса, а так же направлен на подготовку к международным экзаменам. Прекрасно укомплектован мультимедийными приложениями и уникальными видео: сериал о подростках; интервью, взятые у прохожих на улицах Лондона; репортажи о культуре англоговорящих стран. Данный курс призван вдохновлять и позволяет мотивировать подростков к изучению иностранного языка.
-        Длительность одного уровня курса: от 9 до 12 месяцев
-        Интенсивность: 2 раза в неделю
-        Длительность занятия: 60 минут
-        <br>
-        <br>
-        Курс Real Life издательства Pearson для изучающих от 15 до 19 лет. Разнообразные и актуальные темы, интересные аутентичные тексты, статьи, диалоги, богатое грамматическое и лексическое содержание, специальный раздел, направленный на подготовку к экзаменам – все это выделяет данный курс среди других и делает его особенным. Включает в себя 4 уровня: Beginner – Upper-intermediate. 
-        Длительность одного уровня курса: от 9 до 12 месяцев
-        Интенсивность: 2 раза в неделю
-        Длительность занятия: 60 минут</p>
-    </div>
-
-    <div class="course">
-      <p class="title-large center-align">А также английский для взрослых</p>
-      <p class="text-lead">Курс New Cutting Edge издательства Pearson – это позитивный коммуникативный подход, тщательная структура, прекрасный набор лексических и грамматических тем. Курс позволяет развивать все навыки, совершенствуя их от уровня к уровню. Сопровождается прекрасными аудио- и видео-материалами, а так же цифровыми компонентами, позволяющими изучать язык с помощью цифровых инструментов. Включает в себя 5 уровней Beginner – Advanced.
-        Длительность одного уровня курса: от 9 до 15 месяцев
-        Интенсивность: 2 раза в неделю
-        Длительность занятия: 60 минут</p>
-    </div>
-  </div>
-
-  <div class="title-large center-align" id="teachers">Наши предователи:</div>
-
-  <div class="teachers">
-    <div class="teacher">
-      <div>
-        <img src="images/Nelli.jpg" alt="Нелли Игоревна" class="teacher-foto">
-      </div>
-      <p class="title-small">Нелли Игоревна</p>
-      <p class="text-medium">Научит вашего ребенка азам языка</p>
-    </div>
-
-    <div class="teacher">
-      <div>
-        <img src="images/Larisa.jpg" alt="Лариса Александровна" class="teacher-foto">
-      </div>
-      <p class="title-small">Лариса Александровна</p>
-      <p class="text-medium">Вся грамматика простым языком</p>
-    </div>
-
-    <div class="teacher">
-      <div>
-        <img src="images/Victoria.jpg" alt="Виктория Викторовна" class="teacher-foto">
-      </div>
-      <p class="title-small">Виктория Викторовна</p>
-      <p class="text-medium">Подготовка к ЕГЭ IELTS TOEFL</p>
-    </div>
-  </div>
-
-  <div class="offers" id="offers">
-
-    <div class="left-offer">
-      <div class="offer">
-        <h3>Индивидуальное занятие</h3>
-        <h3>подготовка к IELTS</h3>
-        <h2 class="title-medium">950&nbsp;рублей</h2>
-        <p>60 минут</p>
+        <p class="intro-item-small title-medium">Не ждите, когда путёвка уже будет куплена!</p>
       </div>
     </div>
 
-    <div class="right-offer">
-      <div class="offer">
-        <h3>Групповые занятия, 8 раз в месяц</h3>
-        <h3>Группа до 10 человек</h3>
-        <h2 class="title-medium">4900&nbsp;рублей</h2>
-        <p>Знания - сила!</p>
+    <div class="features" id="features">
+
+      <div class="feature">
+        <div class="features-icon">
+          <img src="images/success.svg" alt="Выпускники">
+        </div>
+
+        <p class="title-medium">1&nbsp;000<br>человек</p>
+        <p class="text-lead">прошли курс для взрослых</p>
+      </div>
+
+      <div class="feature">
+        <div class="features-icon">
+          <img src="images/brain.svg" alt="Иконка-Мозг">
+        </div>
+
+        <p class="title-medium">Взрослым<br>и детям</p>
+        <p class="text-lead">Одинаково полезно</p>
+      </div>
+
+      <div class="feature">
+        <div class="features-icon">
+          <img src="images/graph.svg" alt="Вложения в себя">
+        </div>
+
+        <p class="title-medium" onclick="alert('Сюрприз-скидка 30% на первый месяц обучения! Промокод: СЮРПРИЗ ОТ ДРУГА')">Вложения<br>в себя</p>
+        <p class="text-lead">Самые разумные инвестиции</p>
+      </div>
+
+      <div class="feature">
+        <div class="features-icon">
+          <img src="images/student.svg" alt="обучение">
+        </div>
+
+        <p class="title-medium">Гибкость<br>в обучении</p>
+        <p class="text-lead">Учёба в удобном формате</p>
       </div>
     </div>
-  </div>
 
-  <div class="footer-item button">
-    <button class="bottom-button button-coral"><h3>Записаться!</h3></button>
-  </div>
+    <div class="courses" id="courses">
+      <p class="courses-title title-large center-align">Тут Вы узнаете про наши курсы:</p>
+      <div class="course">
+        <p class="course-title title-large center-align">Английский для малышей</p>
+        <p class="course-description text-lead">Двухуровневый курс для дошкольников 5-6 лет. Дети изучают алфавит и звуки, учатся писать и
+          считать на английском языке. Материал курса позволяет создать первичный лексический запас и освоить базовые
+          структуры. Все это достигается с помощью увлекательных заданий, запоминающихся песен и стихов, веселых игр.
+          Длительность одного уровня курса: от 7 до 9 месяцев
+          Интенсивность: 2 раза в неделю
+          Длительность занятия: от 45 до 60 минут</p>
+      </div>
 
-  <footer>
-    <div class="footer">
-      <div class="footer-left-part">Выбирая обучение английскому языку в нашей школе вы открываете для себя весь мир!</div>
-      <div>
-        <p>Школа английского языка the Friends</p>
-        <p>г. Норильск, ул. Б. Хмельницкого, д. 62</p>
-        <p>32-44-30</p>
-        <p>norilskfriends@gmail.com</p>
+      <div class="course">
+        <p class="course-title title-large center-align">ЦЕЛЫХ ТРИ КУРСА ДЛЯ ШКОЛЬНИКОВ</p>
+        <p class="course-description text-lead">Курс Go Getter издательства Pearson для детей от 9 до 13 лет, разработан в партнерстве с
+          BBC. Данный курс включает в себя 4 уровня (Beginner-Intermediate) и наполнен аутентичными материалами. Кроме
+          богатой лексической и грамматической составляющих, ребята приобретают знания о культуре разных стран, учатся
+          сотрудничать в рамках проектной работы и развивают коммуникативные навыки. Отдельно следует отметить
+          видео-материалы данного курса: неизбитые темы и интересная подача.
+          Длительность одного уровня курса: от 9 до 12 месяцев
+          Интенсивность: 2 раза в неделю
+          Длительность занятия: 60 минут
+          <br>
+          <br>
+          Курс Wider World издательства Pearson для подростков от 12 до 16 лет, разработан в партнерстве с BBC. Содержит
+          программу по формированию и расширению лексического запаса, а так же направлен на подготовку к международным
+          экзаменам. Прекрасно укомплектован мультимедийными приложениями и уникальными видео: сериал о подростках;
+          интервью, взятые у прохожих на улицах Лондона; репортажи о культуре англоговорящих стран. Данный курс призван
+          вдохновлять и позволяет мотивировать подростков к изучению иностранного языка.
+          Длительность одного уровня курса: от 9 до 12 месяцев
+          Интенсивность: 2 раза в неделю
+          Длительность занятия: 60 минут
+          <br>
+          <br>
+          Курс Real Life издательства Pearson для изучающих от 15 до 19 лет. Разнообразные и актуальные темы, интересные
+          аутентичные тексты, статьи, диалоги, богатое грамматическое и лексическое содержание, специальный раздел,
+          направленный на подготовку к экзаменам – все это выделяет данный курс среди других и делает его особенным.
+          Включает в себя 4 уровня: Beginner – Upper-intermediate.
+          Длительность одного уровня курса: от 9 до 12 месяцев
+          Интенсивность: 2 раза в неделю
+          Длительность занятия: 60 минут
+        </p>
+      </div>
+
+      <div class="course">
+        <p class="course-title title-large center-align">А также английский для взрослых</p>
+        <p class="course-description text-lead">Курс New Cutting Edge издательства Pearson – это позитивный коммуникативный подход,
+          тщательная структура, прекрасный набор лексических и грамматических тем. Курс позволяет развивать все навыки,
+          совершенствуя их от уровня к уровню. Сопровождается прекрасными аудио- и видео-материалами, а так же цифровыми
+          компонентами, позволяющими изучать язык с помощью цифровых инструментов. Включает в себя 5 уровней Beginner –
+          Advanced.
+          Длительность одного уровня курса: от 9 до 15 месяцев
+          Интенсивность: 2 раза в неделю
+          Длительность занятия: 60 минут</p>
       </div>
     </div>
-  </footer>
+
+    <div class="teachers-title title-large center-align" id="teachers">Познакомьтесь, наши предователи:</div>
+
+    <div class="teachers">
+      <div class="teacher">
+        <div>
+          <img src="images/Nelli.jpg" alt="Нелли Игоревна" class="teacher-foto">
+        </div>
+        <p class="title-small">Нелли Игоревна</p>
+        <p class="text-medium">Научит вашего ребенка азам языка</p>
+      </div>
+
+      <div class="teacher">
+        <div>
+          <img src="images/Victoria.jpg" alt="Виктория Викторовна" class="teacher-foto">
+        </div>
+        <p class="title-small">Виктория Викторовна</p>
+        <p class="text-medium">Подготовка к ЕГЭ IELTS TOEFL</p>
+      </div>
+
+      <div class="teacher">
+        <div>
+          <img src="images/Larisa.jpg" alt="Лариса Александровна" class="teacher-foto">
+        </div>
+        <p class="title-small">Лариса Александровна</p>
+        <p class="text-medium">Вся грамматика простым языком</p>
+      </div>
+
+    </div>
+
+    <div class="offers" id="offers">
+
+      <div class="left-offer">
+        <div class="offer">
+          <h3>Индивидуальное занятие</h3>
+          <h3>подготовка к IELTS</h3>
+          <h2 class="title-medium">950&nbsp;рублей</h2>
+          <p>60 минут</p>
+        </div>
+      </div>
+
+      <div class="right-offer">
+        <div class="offer">
+          <h3>Групповые занятия, 8 раз в месяц</h3>
+          <h3>Группа до 10 человек</h3>
+          <h2 class="title-medium">4900&nbsp;рублей</h2>
+          <p>Знания - сила!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-item button">
+      <button class="bottom-button button-coral">
+        <h3>Записаться!</h3>
+      </button>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-left-part">Выбирая обучение английскому языку в нашей школе вы открываете для себя весь мир!
+        </div>
+        <div>
+          <p>Школа английского языка the Friends</p>
+          <p>г. Норильск, ул. Б. Хмельницкого, д. 62</p>
+          <p>32-44-30</p>
+          <p>norilskfriends@gmail.com</p>
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>

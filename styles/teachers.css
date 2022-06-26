@@ -1,0 +1,25 @@
+.teachers-title {
+  padding-top: 50px;
+  margin: 50px 50px;
+  text-decoration: underline 6px rgb(228, 101, 54);
+}
+
+.teachers {
+  padding: 30px;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.teacher {
+  text-align: center;
+}
+
+.teacher-foto {
+  /* max-width: 250px; */
+  max-height: 350px;
+  border-radius: 100px;
+  border: 2px coral solid;
+}

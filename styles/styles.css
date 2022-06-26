@@ -27,7 +27,7 @@ header {
   opacity: 0.95;
 }
 
-.header_logo {
+.header-logo {
   padding-top: 10px;
   max-height: 100px;
 }
@@ -39,7 +39,7 @@ header {
 
 }
 
-.header_items {
+.header-items {
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@ header {
   border: 2px coral solid;
 }
 
-.right_part {
+.right-part {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -65,16 +65,21 @@ header {
   flex-wrap: wrap;
 }
 
-.top-links { 
+.top-links {
   padding: 5px 0 5px 0;
 }
 
-.phone_number {
+.top-links:hover { 
+  color: black;
+  transition: all ease 1s;
+}
+
+.phone-number {
   color: #32082e;
   display: flex;
 }
 
-.top-links, .phone_number {
+.top-links, .phone-number {
   margin: 0 1em 4px 1em;
   text-decoration: none;
   
@@ -115,20 +120,20 @@ footer {
 }
 
 .intro-content {
-  padding-top: 250px;
+  padding-top: 200px;
   text-align: center;
   width: 100%;
   min-height: 500px;
 }
 
 .intro-item {
-  color: coral;
+  color: rgb(159, 73, 170);
   -webkit-text-stroke: .03em #444;
-  padding: 70px;
+  padding: 30px 70px;
 }
 
 .intro-item-small {
-  color: coral;
+  color: rgb(159, 73, 170);
   padding: 50px;
 }
 
@@ -161,37 +166,8 @@ footer {
   width: 50px;
 }
 
-.courses {
-  display: flex;
-  flex-direction: column;
-}
-
-.course {
-  padding: 30px;
-}
-
 .center-align {
   text-align: center;
-}
-
-.teachers {
-  padding: 30px;
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.teacher {
-  text-align: center;
-}
-
-.teacher-foto {
-  /* max-width: 250px; */
-  max-height: 350px;
-  border-radius: 100px;
-  border: 2px coral solid;
 }
 
 .offers {
@@ -199,9 +175,9 @@ footer {
   padding: 3em;
   margin: 2em;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:space-evenly;
 }
 
 .offer {
